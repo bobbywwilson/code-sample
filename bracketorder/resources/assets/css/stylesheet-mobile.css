@@ -1,0 +1,1669 @@
+html {
+    background-color: #ffffff;
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+}
+
+body {
+    background-color: #fff;
+}
+
+main {
+    position: relative;
+    margin-bottom: 100px;
+    /*top: -20px;*/
+}
+
+h4 {
+    font-size: 2.28rem;
+    line-height: 55%;
+    margin: 1.52rem 0 .912rem 0;
+}
+
+h6 {
+    line-height: initial !important;
+    color: #000000;
+}
+
+.article-title h6 {
+    margin: 10px 0 10px -5px;
+}
+
+tr a, #submit-add-to-watchlist-form {
+    color: inherit !important;
+}
+
+#periods-sma-1, #periods-sma-2, #periods-sma-3 {
+    color: #9e9e9e !important;
+}
+
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.desktop-card {
+    width: 97% !important;
+}
+
+#save-watchlist {
+    color: inherit !important;
+    cursor: pointer;
+}
+
+#save-watchlist:hover {
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+#desktop-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    padding-right: 0;
+    box-shadow: none;
+}
+
+#nav-mobile {
+    position: relative;
+    height: 50px;
+}
+
+nav ul li {
+    height: 50px;
+}
+
+#technicals-card {
+    margin-top: 24px;
+    border: 0 !important;
+}
+
+nav ul a, nav ul a:hover, nav ul a:active, nav ul a:visited {
+    position: relative;
+    bottom: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    display: inline;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 13px;
+    text-shadow: none;
+    letter-spacing: 0.1em;
+}
+
+#bracketorder-col {
+    position: relative;
+    /*top: -8px;*/
+}
+
+.highcharts-legend-item rect{
+    display: none;
+}
+.highcharts-legend-item path {
+    display: none;
+}
+
+/*.highcharts-range-selector-buttons text {*/
+    /*display: none;*/
+/*}*/
+
+#technicals-card-content {
+    height: 554px;
+}
+
+#settings-icon, #user-icon, #logout-icon {
+    font-weight: 900;
+    font-size: 15px;
+    margin-right: 5px;
+    height: 50px;
+}
+
+.fa-square {
+    font-size: 12px;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 0;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: none !important;
+    border-bottom: 0 !important;
+}
+
+.dataTables_length label {
+    display: none !important;
+}
+
+#watchlist-table-default_info, #watchlist-table-desktop_info {
+    position: relative;
+    left: 5px;
+}
+
+#technicals-table tbody th, #technicals-table tbody td,
+#watchlist-table-default tbody th, #watchlist-table-default tbody td,
+#watchlist-table-desktop tbody th, #watchlist-table-desktop tbody td {
+    padding: 8px 5px !important;
+    border-bottom: 1px solid #EEE;
+    border-radius: 0!important;
+}
+
+#watchlist-table-default thead th,
+#watchlist-table-desktop thead th {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+#fundamentals-tables tbody th,
+#fundamentals-tables tbody td {
+    position: relative;
+    top: 5px;
+    border-bottom: 1px solid #EEE !important;
+    border-radius: 0!important;
+}
+
+#watchlist-table-default
+#watchlist-table-desktop thead th {
+    border-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#watchlist-table-default thead th, #watchlist-table-default thead td,
+#watchlist-table-desktop thead th, #watchlist-table-desktop thead td{
+    border-bottom: 0 !important;
+    padding-left: 12px !important;
+    padding-right: 20px !important;
+}
+
+#watchlist-table-default thead th, #watchlist-table-default thead td,
+#watchlist-table-desktop thead th, #watchlist-table-desktop thead td,
+#fundamentals-tables thead th, #fundamentals-tables thead td {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#add-to-watchlist-watchlist {
+    padding-left: 15px;
+}
+
+#watchlist-table-default_paginate,
+#watchlist-table-desktop_paginate {
+    position: relative;
+    left: 8px;
+}
+
+.adjust-left-10 {
+    position: relative;
+    left: 17px;
+}
+
+.adjust-left {
+    padding-left: -10px !important;
+}
+
+.adjust-left-8 {
+    position: relative;
+    left: -8px;
+    padding-left: 8px !important;
+}
+
+.add-padding {
+    padding-right: 7px !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.adjust-card-content {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.adjust-card-content-div {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#go-button {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    float: right;
+}
+
+#go-field {
+    padding-right: 15px !important;
+}
+
+#clear-button {
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+#bracketorder_symbol_label {
+    margin-left: -10px;
+}
+
+.delete-action {
+    width: 7%;
+}
+
+#stock-news-table_info,
+#top-news-table_info,
+#business-news-table_info,
+#technology-news-table_info,
+#us-news-table_info,
+#world-news-table_info {
+    width: 35% !important;
+    margin: 10px auto -20px auto !important;
+    padding-left: 15px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0.87) !important;
+    background: rgba(0, 0, 0, 0.87) none !important;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: rgba(242,242,242,.25) !important;
+}
+
+#stock-news-table_paginate,
+#top-news-table_paginate,
+#business-news-table_paginate,
+#technology-news-table_paginate,
+#us-news-table_paginate,
+#world-news-table_paginate {
+    margin-top: 10px !important;
+    margin-bottom: -20px !important;
+}
+
+.invalid-feedback {
+    color: #43a047;
+}
+
+.success-message {
+    font-weight: 500;
+    color: #b71c1c;
+}
+
+.failure-message {
+    font-weight: 500;
+    color: #43a047;
+}
+
+.no-show {
+    visibility: hidden;
+}
+
+.sidenav {
+    width: 30%;
+    background-color: #ffffff;
+    bottom: 0;
+    padding-top: 45px !important;
+}
+
+.sidenav li > a {
+    background-color: #ffffff;
+    border-left: 4px solid #ffffff;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    /* height: 48px; */
+    line-height: 48px;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+}
+
+.sidenav li > a:hover, .sidenav li > a:active, .sidenav li > div:hover, .sidenav li > div:active {
+    background-color: #ffffff;
+    border-top: 0 !important;
+    /*border-bottom: 0 !important;*/
+    border-left: 8px solid #000000 !important;
+    text-indent: 30px;
+}
+
+.sidenav .collapsible-header, .sidenav.fixed .collapsible-header {
+    background-color: transparent;
+    /*border-top: 1px solid rgba(38, 38, 38, .95);*/
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    line-height: inherit;
+    height: inherit;
+    text-indent: 54px;
+    color: #000000;
+}
+
+.sidenav-text-indent {
+    text-indent: 20px;
+}
+
+.sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
+    text-indent: 70px;
+}
+
+.sidenav .collapsible-body li a:hover, .sidenav .collapsible-body li a:active, .sidenav.fixed .collapsible-body li a:hover, .sidenav.fixed .collapsible-body li a:active {
+    text-indent: 70px !important;
+}
+
+.sidenav-link-padding {
+    /*border-top: 1px solid rgba(38, 38, 38, .95);*/
+    border-bottom: 1px solid rgba(38, 38, 38, .95);
+    margin-left: 0;
+}
+
+.sidenav-link-padding {
+    /*border-top: 1px solid rgba(38, 38, 38, .95);*/
+    border-bottom: 1px solid rgba(38, 38, 38, .95);
+    margin-left: 0;
+}
+
+.sidenav .collapsible-body li a:hover, .sidenav.fixed .collapsible-body li a:hover {
+    background-color: rgba(0, 0, 0, .98);
+    border-left: 8px solid rgba(0, 0, 0, 1);
+    text-indent: 30px;
+}
+
+.sidenav .collapsible-body li a:active, .sidenav.fixed .collapsible-body li a:active {
+    background-color: rgba(0, 0, 0, .98);
+    border-left: 8px solid rgba(0, 0, 0, 1);
+    text-indent: 30px;
+}
+
+.sidenav li > a > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"], .sidenav li > a > i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    width: 24px;
+    color: #000000;
+}
+
+.sidenav-icon, .sidenav li > a > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"], .sidenav li > a > i.material-icons {
+    font-size: 15px;
+    text-indent: -10px;
+    margin: 0 -5px 0 0;
+}
+
+.sidenav-icon:hover, .sidenav-icon:active, .sidenav li > a:hover > i, .sidenav li > a:active > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a:active > [class^="mdi-"], .sidenav li > a:hover li > a:hover > [class*="mdi-"], .sidenav li > a:active li > a:active > [class*="mdi-"], .sidenav li > a:hover > i.material-icons, .sidenav li > a:active > i.material-icons {
+    margin: 0 -50px 0 0;
+}
+
+.fa-plus-square {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.fa-minus-square {
+    color: #c8e6c9;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#edit-watchlist {
+    margin-right: 0 !important;
+}
+
+#edit-start, #edit-done,
+#edit-start-desktop, #edit-done-desktop {
+    position: relative !important;
+    top: 12px !important;
+    font-weight: bolder;
+    color: #86888b !important;
+    font-size: 12px;
+}
+
+.fa-calendar:before {
+    content: "\f133";
+    margin-left: 3px;
+}
+
+.colors {
+    position: absolute;
+    bottom: 22px;
+    left: 87%;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #9e9e9e;
+}
+
+.indicators {
+    position: absolute;
+    top: 133px;
+    right: 36.5%;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #9e9e9e;
+}
+
+.fa-google-plus-square {
+    position: relative;
+    top: 4px;
+    left: -10px;
+}
+
+.sidenav {
+    cursor: pointer !important;
+}
+
+.sidenav-overlay {
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
+nav .sidenav-trigger {
+    position: relative;
+    top: 4px;
+    margin: 0 0;
+}
+
+.close-x {
+    position: relative;
+    bottom: 0;
+    right: 25px;
+    color: #D8AA36;
+    font-size: 40px;
+}
+
+#chart-indicators-form .input-field {
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#spacer-input {
+    position: relative;
+    bottom: 70px;
+}
+
+.input-field.col label {
+    width: 96% !important;
+    position: absolute;
+    left: 10px !important;
+}
+
+.select-dropdown li img {
+    position: relative;
+    top: 5px;
+    height: 15px;
+    width: 15px;
+    margin: 15px 15px;
+    float: right;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus.valid ~ label {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus.valid ~ label {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus.valid ~ label {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+input[type=checkbox]:not(.browser-default):focus:not([readonly]) + label,
+input[type=checkbox]:not(.browser-default):focus.valid ~ label {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+    -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87);
+}
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid rgba(0, 0, 0, 0.87);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87);
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87);
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87);
+}
+
+.card .card-action {
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    position: relative;
+    padding: 16px 10px !important;
+}
+
+#login-heading {
+    margin-left: 5px;
+}
+
+#card-activator {
+    height: 50px;
+}
+
+.card .card-content .card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+    margin-top: -20px;
+    height: 34px;
+}
+
+i.right {
+    /*margin-top: -10px;*/
+}
+
+#more-info-x-chart {
+    left: 0 !important;
+    top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+}
+
+#more-info-x-bracket {
+    left: 0 !important;
+    top: 5px !important;
+}
+
+#modal-x {
+    left: 0 !important;
+    top: 10px !important;
+    font-size: 20px;
+}
+
+.select-wrapper .caret {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    z-index: 0;
+    fill: rgba(0,0,0,0.87);
+    width: 43px !important;
+    height: 90px !important;
+}
+
+#ellipse-menu-bracket, #ellipse-menu-chart {
+    position: relative !important;
+    left: 0 !important;
+    margin-top: -5px !important;
+}
+
+.nav-content {
+    position: relative;
+    top: -19px;
+}
+
+.chart-adjustments {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 1016px;
+}
+
+.adjust-for-footer {
+    min-height: 553px !important;
+}
+
+.quote-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.markets-quote {
+    position: relative;
+    top: 0;
+    margin-bottom: 0;
+    height: 130px;
+    padding: 16px 0 !important;
+}
+
+#login-card {
+    margin-top: 150px;
+}
+
+#logout-form {
+    display: none !important;
+}
+
+.card .card-content {
+    border-radius: 0 0 2px 2px;
+    padding-bottom: 20px;
+}
+
+.white-black-button {
+    color: #2D2D2D;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #2D2D2D;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.grey.darken-4 {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.btn-large {
+    background-color: #2D2D2D !important;
+    height: 46px;
+    width: 100%;
+    line-height: 40px;
+    font-size: 12px;
+    padding: 0 28px;
+}
+
+.no-image-button {
+    line-height: 50px;
+    margin-right: 22px;
+    margin-bottom: 20px;
+}
+
+.account-links {
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.account-links:hover {
+    color: rgba(49, 49, 49, .90);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.green-number {
+    color: #b71c1c;
+    font-weight: bold;
+}
+
+.red-number {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.red-border {
+    border: 1px solid red !important;
+}
+
+.trade-date {
+    color: #868886;
+}
+
+.add-to-watchlist {
+    position: relative;
+    top: 10px;
+}
+
+.watchlist-text {
+    color: rgb(0, 0, 0);
+}
+
+.orange-contrast-text {
+    color: #D8AA36;
+}
+
+.black-contrast-text {
+    color: rgba(0, 0, 0, .87);
+}
+
+.company-name {
+    color: #e0e0e0;
+    text-transform: uppercase;
+}
+
+.company-name-text {
+    position: relative;
+    top: -2px;
+    font-size: 21px;
+}
+
+.logo-font {
+    position: relative;
+    bottom: 4px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #D8AA36;
+}
+
+#top-nav {
+    height: 24px;
+    line-height: 0;
+}
+
+.fa-terminal {
+    font-size: 24px;
+}
+
+/*!*.content-div {*!*/
+/*!*padding-left: 50px;*!*/
+/*!*padding-right: 50px;*!*/
+/*!*}*!*/
+
+/*.header-menu {*/
+/*position: fixed;*/
+/*top: 0;*/
+/*width: 100%;*/
+/*z-index: 12;*/
+/*}*/
+
+.header-menu-buttons {
+    border-top: 10px solid #ffffff !important;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2) !important;
+    background-color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+}
+
+img.profile-image {
+    position: relative;
+    top: 10px;
+    right: 40px;
+    max-width: 100%;
+    height: 45px;
+    border: 2px solid #D8AA36;
+}
+
+.logo-image {
+    position: relative;
+    top: 15px;
+    color: rgba(0, 0, 0, .87);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#login-logo-image {
+    position: relative;
+    top: 15px;
+    color: rgba(0, 0, 0, .87);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#menu-open {
+    position: relative;
+    left: 15px;
+    top: -4px;
+    cursor: pointer;
+}
+
+#menu-close{
+    position: relative;
+    left: -15px;
+    top: -4px;
+    cursor: pointer;
+}
+
+#menu-open-desktop {
+    position: relative;
+    left: -15px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+#menu-close-desktop {
+    position: relative;
+    left: -20px;
+    cursor: pointer;
+    margin-top: -8px !important;
+}
+
+#slide-out-desktop {
+    transform: translateX(0%) !important;
+    width: 3.5% !important;
+}
+
+.sidenav-overlay {
+    cursor: pointer !important;
+}
+
+.no-left {
+    position: relative;
+    left: 0;
+}
+
+#chart {
+    position: relative;
+    top: 5px;
+    height: 877px;
+    width: 100%;
+    /*min-width: 310px;*/
+    margin-bottom: 25px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    -webkit-user-select: none;
+}
+
+.ui-listview-item-count-bubble {
+    display: none !important;
+}
+/*.highcharts-plot-background {*/
+    /*fill: none;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+/*}*/
+
+#bracket, #technicals, #watchlist, #fundamentals {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#watchlist {
+    position: relative;
+    top: 10px;
+}
+
+#bracket-divider {
+    position: relative;
+    top: 5px;
+    margin-bottom: 15px;
+}
+
+#technicals-divider {
+    position: relative;
+    top: 5px;
+    margin-bottom: 15px;
+}
+
+#watchlist-divider {
+    position: relative;
+    top: 5px;
+    margin-bottom: 15px;
+}
+
+#fundamentals-divider {
+    position: relative;
+    top: 5px;
+    margin-bottom: 15px;
+}
+
+#profile-divider {
+    position: relative;
+    top: 5px;
+    margin-bottom: 15px;
+}
+
+#chart-indicators-divider {
+    position: relative;
+    top: 5px;
+}
+
+#chart-quote {
+    border: 0;
+}
+
+#card-col-quote {
+    padding: 0;
+}
+
+span.badge.new.fundamental {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    background-color: #26a69a;
+    border-radius: 2px;
+    width: 120px;
+}
+
+#bracket-order {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.extra-padding {
+    padding: 5px 5px 15px 5px;
+}
+
+.border-bottom-1 {
+    border-bottom: 1px solid #eee;
+}
+
+#bracketorder-form, #technical-indicators-form, #watchlist-bracket-form, #stock-fundamentals-form {
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+#sma-row-1 {
+    position: relative;
+    top: 30px;
+}
+
+#sma-row-2 {
+    position: relative;
+    top: 25px;
+}
+
+#sma-row-3 {
+    position: relative;
+    top: 20px;
+}
+
+[type="checkbox"]+span:not(.lever) {
+    position: relative;
+    top: 5px;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 20px;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.select-wrapper .caret {
+    display: none;
+}
+
+select + i.fa {
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+    /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+    pointer-events: none;
+    /* everything after this is just to cover up the original arrow */
+    /* (for browsers that don't support the syntax used above) */
+    background-color: #fff;
+    padding-right: 5px;
+}
+
+.news-sections-chevron-down, .news-sections-chevron-up {
+    font-size: 15px !important;
+}
+
+#chart-indicators-form {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 0, 0, .87);
+    background-color: rgba(0, 0, 0, .87);
+    z-index: 0;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+    border: 2px solid transparent;
+    border-right: 4px rgba(0, 0, 0, .87);
+    border-bottom-color: rgba(0, 0, 0, .87);
+}
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid rgba(0, 0, 0, 0.87);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+}
+
+#bracketorder-quote, #bracketorder-quote-technicals, #bracketorder-quote-news {
+    position: relative;
+    top: 35px;
+    margin-bottom: 65px;
+}
+
+#select-count-wrapper {
+    width: 50% !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+}
+
+#bracket-order-watchlist {
+    top: 15px;
+    margin-bottom: 20px;
+}
+
+#bracket-order-fundamentals {
+    margin-bottom: 40px;
+}
+
+.watchlist-input-adjust {
+    top: 10px !important;
+    margin-bottom: 5px !important;
+}
+
+#stock-news-table_length label,
+#business-news-table_length label,
+#technology-news-table_length label,
+#top-news-table_length label,
+#us-news-table_length label,
+#world-news-table_length label {
+    display: none;
+}
+
+table.dataTable {
+    width: 100%;
+    margin: 0 auto 20px;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+}
+
+#yahoo_finance_logo {
+    width: 25%;
+}
+
+.equal-spacing {
+    position: relative;
+    bottom: 10px;
+    padding-left: 17px !important;
+}
+
+.table-adjust-margin-bottom {
+    margin-bottom: 0;
+}
+
+.table-adjust-margin-bottom-technicals {
+    margin-bottom: -20px;
+}
+
+#ticker-symbol-form {
+    height: auto;
+}
+
+#ticker-box {
+    position: relative;
+    top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ticker_symbol {
+    margin-bottom: 8px;
+}
+
+#technicals_input {
+    margin-bottom: 30px;
+}
+
+/*.height-adjustment {*/
+/*height: 60px;*/
+/*}*/
+
+#input-row {
+    margin-bottom: 0;
+}
+
+/*.watchlist-button {*/
+/*position: relative;*/
+/*left: 15px;*/
+/*}*/
+
+/*.btn-floating.btn-small i {*/
+/*line-height: 32px;*/
+/*font-weight: bold;*/
+/*font-size: 20px;*/
+/*}*/
+
+.watchlist-button {
+    position: relative;
+    left: 16px;
+    width: 20.4px !important;
+    height: 20.4px !important;
+    border: 2px solid #868886;
+}
+
+.btn-floating.btn-small i {
+    position: relative;
+    left: -2px;
+    bottom: 8px;
+    color: #868886;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.strong-text {
+    font-weight: 900 !important;
+}
+
+.divider {
+    /*border-bottom: 1px solid #f5f5f5;*/
+    /*border-bottom: 1px solid rgba(0, 0, 0, .87);*/
+    /*border-bottom: 1px solid #D8AA36;*/
+    margin-bottom: 10px;
+}
+
+.heading-adjust {
+    margin-left: 0 !important;
+}
+
+.divider-adjust {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.content-sections {
+    margin-bottom: 0;
+}
+
+.section-border {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile-section {
+    padding: 0 5px 0 5px;
+}
+
+.divider-heading {
+    width: 50%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.extra-bold {
+    font-weight: 900;
+}
+
+#tab-wrapper {
+    padding: 0;
+}
+
+#tab-section {
+    padding-left: 27px;
+    padding-right: 30px;
+}
+
+.tabs > li {
+    width: 33.33% !important;
+}
+
+.tabs > li a {
+    color: #000000;
+}
+
+.tabs .tab a {
+    color: #000000;
+}
+
+.tabs .tab {
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    width: 25%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.tabs .indicator {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #EBEBEB;
+    will-change: left, right;
+    width: 25%;
+}
+
+/*.active {*/
+/*background-color: #fafafa;*/
+/*}*/
+
+.tab a:hover {
+    color: #000 !important;
+    font-weight: 600;
+    transition: color .28s ease, background-color .28s ease !important;
+}
+
+.tab a.active {
+    background-color: #eeeeee !important;
+    color: inherit !important;
+    font-weight: 400 !important;
+}
+
+.right-margin-padding {
+    padding-right: 5px;
+}
+
+.right-margin-padding-20 {
+    position: relative;
+    bottom: 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    color: #86888b;
+}
+
+table {
+    width: 100%;
+    display: table;
+    /*border-collapse: unset;*/
+    border-spacing: 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+span.badge.new.technical {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    background-color: #26a69a;
+    border-radius: 2px;
+    width: 120px;
+}
+
+tr {
+    border-bottom: 0;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.shift-align {
+    position: relative;
+    left: 2px;
+}
+
+.adjust-alignment {
+    position: relative;
+    left: 6px;
+}
+
+th {
+    padding: 15px 5px 0;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 12px;
+    color: #86888b;
+}
+
+td {
+    padding: 5px;
+    font-size: 14px;
+    color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+    width: 326px;
+}
+
+.no-border {
+    border: 0;
+}
+
+.card {
+    box-shadow: none !important;
+    /*border: 1px solid rgba(160, 160, 160, 0.2) !important;*/
+}
+
+.card-height {
+    height: 600px !important;
+}
+
+.card-height-indicators {
+    height: 720px !important;
+}
+
+.no-border-bottom {
+    border-bottom: 0 !important;
+}
+
+.index-code {
+    position: relative;
+    bottom: 5px;
+    padding: 5px;
+    font-size: 12px;
+    color: #86888b;
+}
+
+.index-code-mobile {
+    position: relative;
+    bottom: 5px;
+    padding: 5px 0;
+    font-size: 12px;
+    color: #86888b;
+    margin-bottom: 20px;
+}
+
+.index-code-bottom-0 {
+    position: relative;
+    bottom: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #86888b;
+}
+
+.index-code-heading {
+    position: relative;
+    bottom: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.article-title {
+    position: relative;
+    top: 5px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.index-code-black {
+    position: relative;
+    top: 10px;
+    bottom: 5px;
+    padding: 5px;
+    font-size: 18px;
+    color: #86888b;
+    border-bottom: 1px solid #eee;
+}
+
+#markets {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#markets-news {
+    /*position: relative;*/
+    /*top: 25px;*/
+}
+
+.markets-tab {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#markets-tables {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.watchlist-date {
+    border-bottom: 0 !important;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 15px 5px 0 18px;
+    border-top: 0;
+}
+
+#color-match {
+    background-color: #fff !important;
+}
+
+.news-icons {
+    margin-right: 15px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.article-description {
+    color: #ef9a9a;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+#stock-news-table {
+    margin-bottom: 20px;
+}
+
+.index-ohlc {
+    position: relative;
+    bottom: 0;
+    padding: 5px;
+    font-size: 12px;
+    color: #86888b;
+}
+
+.page-footer {
+    color: rgba(0, 0, 0, 1);
+    background-color: #ffffff;
+    padding: 10px 15px;
+    overflow: hidden !important;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+}
+
+.modal {
+    max-height: none !important;
+    height: 40%;
+}
+
+#name_label {
+    margin-left: -12px;
+}
+
+.select-wrapper input.select-dropdown {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #9e9e9e;
+    width: 100%;
+    /*left: 10px;*/
+}
+
+.modal > .dropdown-content {
+    width: 235px !important;
+    height: 15% !important;
+}
+
+#new-watchlist-field {
+    position: relative;
+    top: 25px;
+}
+
+#watchlist-h6 {
+    margin-left: -5px;
+}
+
+#watchlist-form {
+    height: calc(100% - 15%) !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 !important;
+}
+
+.modal-content {
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: calc(100% - 35%) !important;
+    top: 5%;
+}
+
+.modal-footer {
+    height: calc(100% - 89%) !important;
+}
+
+.page-footer .footer-copyright {
+    padding: 10px 0 !important;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 1);
+}
+
+#modal-footer-row {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-fixed-footer {
+    width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: calc(100% - 82%);
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    height: 100% !important;
+    max-height: 100% !important;
+    width: 100%;
+    background: rgba(255, 255, 255, .8) url('https://i.stack.imgur.com/FhHRx.gif') 50% 50% no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading #modal {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading #modal {
+    display: block;
+}
+
+.sidenav.right-aligned {
+    right: 0;
+    left: auto;
+    top: 0;
+    width: 100%;
+    background-color: #FFF;
+    border-top: 10px solid #ffffff;
+}
+
+.close-news {
+    position: relative !important;
+    left: -30px !important;
+    top: -23px !important;
+    font-size: 24px !important;
+    margin-top: 5px !important;
+}
+
+.highcharts-scrollbar {
+    /*display: none !important;*/
+}
+
+.highcharts-input-group {
+    margin-right: 0;
+}
+
+.datepicker-date-display {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
+    -ms-flex: 1 auto;
+    flex: 1 auto;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px 22px;
+    font-weight: 500;
+}
+
+.datepicker-table td.is-selected {
+    background-color: #212121;
+    color: #fff;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    color: #212121;
+    padding: 0 1rem;
+}
+
+.is-selected {
+    color: #212121;
+}
+
+.datepicker-table td.is-today {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.datepicker-day-button:focus {
+    background-color: #212121;
+    color: #fff;
+}
+
+.highcharts-range-input, .highcharts-range-selector {
+    cursor: pointer !important;
+}
+
+#min-date {
+    position: relative;
+    left: 91.4%;
+    top: 10px;
+    font-size: 20px;
+}
+
+#max-date {
+    position: relative;
+    left: 97.5%;
+    top: 10px;
+    font-size: 20px;
+}
+
+/*.selects-container{*/
+    /*width: 200px !important;*/
+/*}*/
+
+.select-month {
+    width: 200px !important;
+}
+
+.ui-icon, .ui-selectmenu-button-text {
+    display: none;
+}
+
+.ui-loader-header {
+    display: none !important;
+}

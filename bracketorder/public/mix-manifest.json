@@ -1,0 +1,22 @@
+{
+    "/js/mobile/app.js": "/js/mobile/app.js",
+    "/mobile/css/app.css": "/mobile/css/app.css",
+    "/css/app-auth.css": "/css/app-auth.css",
+    "/js/mobile/stochastic-chart.js": "/js/mobile/stochastic-chart.js",
+    "/js/mobile/rsi-chart.js": "/js/mobile/rsi-chart.js",
+    "/js/mobile/rs-chart.js": "/js/mobile/rs-chart.js",
+    "/js/mobile/ms-chart.js": "/js/mobile/ms-chart.js",
+    "/js/mobile/mrs-chart.js": "/js/mobile/mrs-chart.js",
+    "/js/mobile/mr-chart.js": "/js/mobile/mr-chart.js",
+    "/js/mobile/macd-chart.js": "/js/mobile/macd-chart.js",
+    "/js/mobile/bs-chart.js": "/js/mobile/bs-chart.js",
+    "/js/mobile/brs-chart.js": "/js/mobile/brs-chart.js",
+    "/js/mobile/br-chart.js": "/js/mobile/br-chart.js",
+    "/js/mobile/bollinger-bands-chart.js": "/js/mobile/bollinger-bands-chart.js",
+    "/js/mobile/bmrs-chart.js": "/js/mobile/bmrs-chart.js",
+    "/js/mobile/bmr-chart.js": "/js/mobile/bmr-chart.js",
+    "/js/mobile/bm-chart.js": "/js/mobile/bm-chart.js",
+    "/js/mobile/basic-chart.js": "/js/mobile/basic-chart.js",
+    "/js/mobile/app-login.js": "/js/mobile/app-login.js",
+    "/css/mobile/all.css": "/css/mobile/all.css"
+}

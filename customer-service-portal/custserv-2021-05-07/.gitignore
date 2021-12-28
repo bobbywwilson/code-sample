@@ -1,0 +1,3 @@
+# ignore db connect files
+/database/schema.sql
+.env

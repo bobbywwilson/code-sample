@@ -1,0 +1,5 @@
+{
+  "803|node-sass>node-gyp>tar": {
+    "ignore": 1
+  }
+}

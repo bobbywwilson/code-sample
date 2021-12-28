@@ -1,0 +1,329 @@
+@media only screen and (max-width: 2014px) and (min-width: 1440px) {
+
+    #profile-table {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profile-heading {
+        padding-left: 5px;
+    }
+
+    .indicators {
+        position: absolute;
+        top: 145px;
+        right: 35.5%;
+        font-size: 15px !important;
+        font-weight: bolder;
+        color: #9e9e9e;
+    }
+
+    .colors {
+        position: absolute;
+        bottom: 22px;
+        left: 90%;
+        font-size: 15px !important;
+        font-weight: bolder;
+        color: #9e9e9e;
+    }
+
+    .modal {
+        max-height: none !important;
+        height: 45%;
+    }
+}
+
+
+@media only screen and (max-width: 1352px) {
+    .row .col.m6 {
+        width: 100%;
+    }
+    .hide-on-med-and-down {
+        display: none !important;
+    }
+    .show-on-med-and-down {
+        display: inline !important;
+    }
+}
+
+@media only screen and (max-width: 1204px) {
+    .show-on-large {
+        display: none !important;
+    }
+
+    .modal {
+        max-height: none !important;
+        height: 60%;
+        left: 70px;
+    }
+
+    .modal > .select-wrapper input.select-dropdown {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #9e9e9e;
+        width: 100%;
+        /*left: 10px;*/
+    }
+
+    #min-date {
+        position: relative;
+        left: 84.5%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    #max-date {
+        position: relative;
+        left: 95.8%;
+        top: 10px;
+        font-size: 20px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sidenav {
+        width: 50%;
+        background-color: #ffffff;
+        bottom: 0;
+        padding-top: 45px !important;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .sidenav {
+        width: 50%;
+        background-color: #ffffff;
+        bottom: 0;
+        padding-top: 45px !important;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .percent-25 {
+        width: 30% !important;
+    }
+
+    .percent-50 {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #login-heading {
+        margin-left: 10px;
+    }
+
+    .modal {
+        max-height: none !important;
+        height: 43%;
+        left: 70px;
+        right: auto;
+    }
+
+    #min-date {
+        position: relative;
+        left: 79%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    #max-date {
+        position: relative;
+        left: 94%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .sidenav {
+        width: 50%;
+        background-color: #ffffff;
+        bottom: 0;
+        padding-top: 45px !important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 667px) {
+    .card .card-action {
+        padding: 16px 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo-image {
+        position: relative;
+        top: 15px;
+        color: rgba(0, 0, 0, .87);
+        font-size: 20px;
+        font-weight: 700;
+        float: right;
+    }
+
+    #logo-imag-span {
+        float: right;
+    }
+
+    #nav-menu-i {
+        width: 25%;
+    }
+
+    #logo-image {
+        width: 75%
+    }
+
+    #nav-avatar {
+        display: none;
+    }
+
+    .header-menu-buttons {
+        border-top: 10px solid #ffffff !important;
+        border-bottom: 1px solid rgba(160, 160, 160, 0.2) !important;
+        background-color: #ffffff;
+        padding-left: 0;
+        padding-right: 0;
+        height: 50px;
+    }
+
+    .adjust-for-footer {
+        min-height: 553px !important;
+    }
+
+    .sidenav {
+        width: 80%;
+        background-color: #ffffff;
+        /*top: 50px;*/
+        bottom: 0;
+        padding-top: 45px !important;
+    }
+
+    /*.sidenav-overlay {*/
+        /*background-color: rgba(0, 0, 0, 0);*/
+    /*}*/
+
+    .page-footer .footer-copyright {
+        font-size: 95%;
+    }
+
+    .row .col.m6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    td, th {
+        padding: 5px 0 !important;
+    }
+
+    .card .card-content {
+        padding: 24px 15px;
+    }
+
+    .equal-spacing {
+        padding-left: 5px !important;
+    }
+
+    #bracketorder_symbol_label {
+        margin-left: 0;
+    }
+
+    #bracketorder-quote {
+        margin-left: 0 !important;
+    }
+
+    #go-field {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .add-to-watchlist {
+        top: 0;
+    }
+
+    #save-watchlist {
+        position: relative;
+        left: 10px;
+    }
+
+    #tab-section {
+        margin: 0;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    span.badge.new.technical {
+        /*width: 60px;*/
+    }
+
+    .tabs .tab a {
+        padding: 5px 10px;
+    }
+
+    span.badge.new.technical > .fa-caret-down {
+        font-size: 20px !important;
+    }
+
+    .badge-align-right {
+        text-align: right !important;
+    }
+
+    #index-sell-limit {
+        padding-left: 39px !important;
+        text-align: right !important;
+    }
+
+    #index-stop-limit {
+        padding-left: 72px !important;
+        text-align: right !important;
+    }
+
+    #index-stop-limit-label, #index-sell-limit-label {
+        padding-left: 30px !important;
+        text-align: right !important;
+    }
+
+    #stock-sell-limit {
+        padding-left: 39px !important;
+        text-align: right !important;
+    }
+
+    #stock-stop-limit {
+        padding-left: 72px !important;
+        text-align: right !important;
+    }
+
+    #stock-stop-limit-label, #stock-sell-limit-label {
+        padding-left: 30px !important;
+        text-align: right !important;
+    }
+
+    .striped {
+        background-color: rgba(242,242,242,.95) !important;
+        /*border-bottom: 1px solid rgba(0,0,0,0.12) !important;*/
+    }
+
+    .technicals-border {
+        border-bottom: 4px solid #e6ebf5 !important;
+    }
+
+    #technicals-card-content {
+        height: 575px;
+    }
+
+    #login-heading {
+        margin-left: 5px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+}

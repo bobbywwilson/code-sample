@@ -1,0 +1,501 @@
+[23-Jun-2018 20:04:28 UTC] PHP Warning:  require(/home/b1zb5teqlslf/bracketorder/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/b1zb5teqlslf/bracketorder/public/index.php on line 24
+[23-Jun-2018 20:04:28 UTC] PHP Fatal error:  require(): Failed opening required '/home/b1zb5teqlslf/bracketorder/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/b1zb5teqlslf/bracketorder/public/index.php on line 24
+[23-Jun-2018 20:17:11 UTC] PHP Warning:  require(/home/b1zb5teqlslf/bracketorder/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/b1zb5teqlslf/bracketorder/public/index.php on line 24
+[23-Jun-2018 20:17:11 UTC] PHP Fatal error:  require(): Failed opening required '/home/b1zb5teqlslf/bracketorder/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/b1zb5teqlslf/bracketorder/public/index.php on line 24
+[23-Jun-2018 20:20:13 UTC] PHP Warning:  require(/home/b1zb5teqlslf/bracketorder/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/b1zb5teqlslf/bracketorder/public/index.php on line 24
+[23-Jun-2018 20:20:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/b1zb5teqlslf/bracketorder/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/b1zb5teqlslf/bracketorder/public/index.php on line 24
+[25-Apr-2019 09:58:02 America/New_York] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/bc3lztbzbpg0/bracketorder/app/Http/Controllers/AccountController.php on line 6
+[10-Aug-2021 21:16:58 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:38:27 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:42:45 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[10-Aug-2021 23:52:56 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:33:47 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:06 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:11 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:16 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:26 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:36 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:39 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:54 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:54:59 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 06:55:11 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 08:43:57 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 08:43:58 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 09:24:04 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 09:25:33 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 09:29:40 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 13:32:56 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 13:32:56 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[11-Aug-2021 13:32:56 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 13:32:56 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[11-Aug-2021 09:32:56 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 13:33:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 13:33:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[11-Aug-2021 13:33:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[11-Aug-2021 13:33:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 900
+[11-Aug-2021 09:33:01 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/eyrn3qz079cg/bracketorder/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826

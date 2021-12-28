@@ -1,0 +1,567 @@
+@media only screen and (max-width: 1667px) {
+    .table, .table tr {
+        color: #505051;
+        font-size: 95%;
+    }
+    .table-sm td, .table-sm th {
+        padding: .3rem;
+    }
+}
+
+@media only screen and (max-width: 1492px) {
+    .table, .table tr {
+        color: #505051;
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width: 1408px) {
+    #contract-detail {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1412px) {
+    .table, .table tr {
+        color: #505051;
+        font-size: 95%;
+    }
+    .table-sm td, .table-sm th {
+        padding: .3rem;
+    }
+    /* .col-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+    } */
+    #account-balance-card {
+        height: 227px;
+        width: 49%;
+        display: inline-flex;
+        margin-right: 24px;
+    }
+    #recurring-payments-card {
+        width: 50.3%;
+        display: inline-flex;
+        margin-left: -20px;
+        height: 295px;
+    }
+    #account-balance-card {
+        height: 295px;
+    }
+    .show-on-small-screen {
+        display: inline !important;
+    }
+    #my-account-right-col-user, #my-contract-right-col-user {
+        display: none !important;
+    }
+    #security-questions-td {
+        width: 1500px !important;
+    }
+    /* .float-right-compact {
+        width: 80%;
+        float: right;
+    } */
+}
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    #account-balance-card {
+        width: 100%;
+        margin-right: 0;
+    }
+    #recurring-payments-card {
+        width: 100%;
+        margin-left: 0;
+    }
+    .col-8 {
+        padding-right: 0;
+    }
+    .nav-link {
+        font-size: 80%;
+    }
+    .hide-on-medium-desktop {
+        display: none !important;
+    }
+    .medium-desktop-100 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .row-w80 {
+        margin-bottom: 25px;
+        width: 85%;
+    }
+    .table-responsive {
+        display: block !important;
+        width: 100%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-width {
+        width: max-content;
+    }
+    .table td:not(.select-list), .table th:not(.select-list) {
+        width: 162px;
+    }
+    #account-details {
+        flex: 0 0 100%;
+        padding-right: 0;
+        margin-bottom: 8px;
+    }
+    #contract-details-table {
+        width: 100%;
+        display: table !important;
+    }
+}
+@media only screen and (max-width: 1085px) {
+    
+}
+@media only screen and (max-width: 1080px) {
+    .nav-link {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+    .navbar-logo-position {
+        width: auto;
+        margin-left: initial;
+        margin-right: initial;
+        text-align: initial;
+    }
+    .container {
+        padding-left: initial !important;
+    }
+    #contract-search, #login-container-sub {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center-row {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main-navbar {
+        height: 400px;
+    }
+    .row-w97 {
+        width: 97%;
+        margin-bottom: 30px;
+    }
+    .row-w80 {
+        margin-bottom: 25px;
+        width: 97%;
+    }
+    #main-nav {
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 965px) {
+    #contract-details-name {
+        display: none;
+    }
+    #contract-details-name-responsive {
+        display: block;
+    }
+    #contract-details {
+        margin-bottom: 20%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .table, .table tr {
+        font-size: 90%;
+    }
+    #security-questions-td {
+        width: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .customer-name {
+        margin-left: 0;
+    }
+    .customer-name-container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .table-responsive {
+        display: block !important;
+        width: 100%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-width {
+        width: max-content;
+    }
+    .table td:not(.select-list), .table th:not(.select-list) {
+        width: 162px;
+    }
+    /* .no-scroll {
+        width: 140px !important;
+    } */
+    .select-list {
+        width: 250px;
+    }
+    #security-questions-td {
+        width: 543px !important;
+    }
+    #user-details-table-top {
+        display: inline-table !important;
+        width: 100%;
+    }
+    .row-w80 > .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: initial;
+    }
+    #contract-details-table {
+        width: 100%;
+        padding-right: initial;
+        margin-top: 20px;
+    }
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+    .mt-20 {
+        margin-top: 20px;
+    }
+    #contract-details {
+        margin-bottom: 25%;
+    }
+    #account-details {
+        flex: 0 0 100%;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .container-w98 {
+        top: 20px;
+    }
+    #customer-search-container {
+        margin-bottom: 30%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #contract-list {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .input-responsive {
+        width: 50%;
+    }
+    .footer p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer ul {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer ul > li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .col-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 60%;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    #login-form {
+        width: 100%;
+    }
+}
+@media screen and (max-height: 667px) {
+    .table td:not(.select-list), .table th:not(.select-list), .table th:not(.no-scroll) {
+        width: 162px;
+    }
+    .no-scroll {
+        width: 305px !important;
+    }
+    .show-on-tablet-screen {
+        display: none;
+    }
+}
+@media screen and (max-height: 660px) {
+    #login-container {
+        top: 50px;
+        margin-bottom: 150px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .hide-on-tablet-screen {
+        display: none;
+    }
+    #contract-details {
+        margin-bottom: 30%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .hide-on-tablet-screen {
+        display: none;
+    }
+    #breadcrumb-menu {
+        display: none;
+    }
+    .input-responsive {
+        width: 100%;
+    }
+    #security-questions-td {
+        width: 328px !important;
+    }
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+    #contract-search, #login-container-sub {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center-row {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .float-right-50 {
+        width: 100%;
+        float: right;
+    }
+    .table td:not(.select-list), .table th:not(.select-list), .table th:not(.no-scroll) {
+        width: 145px;
+    }
+    .no-scroll {
+        /* width: 200px !important; */
+    }
+    .show-on-tablet-screen {
+        display: none;
+    }
+    .row-w80 {
+        margin-bottom: 25px;
+        width: 95%;
+    }
+    .button-margin {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .select-td {
+        width: 180px !important;
+    }
+    /* .float-right-compact {
+        margin-left: 50px;
+    } */
+}
+
+@media only screen and (max-width: 375px) {
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        height: auto;
+    }
+    .hide-on-small-screen {
+        display: none;
+    }
+    .show-on-small-screen-screen {
+        display: inline;
+    }
+    #account-balance-card {
+        height: 250px;
+    }
+    #recurring-payments-card {
+        height: 300px;
+    }
+    .no-rows-table {
+        padding: 5px !important;
+    }
+    .button-row {
+        padding-left: 15px !important;
+        padding-top: 20px !important;
+    }
+    .truncate-text {
+        width: 200px;
+    }
+    /* .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+    .text-left-mobile {
+        text-align: left !important;
+    }
+    .custom-select-sm {
+        height: 31px;
+    }
+    .input-group-prepend {
+        height: 31px !important;
+    }
+    .padding-right-only {
+        padding-right: 30px !important;
+    }
+    #user-details-table-top {
+        display: block !important;
+        width: max-content;
+    }
+    #login-container {
+        top: 25px;
+        min-height: 350px;
+    }
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .col-6-mobile {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .form-control-sm {
+        height: 40px;
+    }
+    #submit-button {
+        height: 40px;
+    }
+    input, select, textarea {
+        font-size: 16px !important;
+    }
+    #contract-search-container {
+        /* margin-top: auto; */
+    }
+    #login-container {
+        padding-right: 0;
+    }
+    #customer-search-row {
+        margin-bottom: initial;
+    }
+    #footer {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+    .hide {
+        display: none !important;
+    }
+    #contract-list-container {
+        top: 25px;
+    }
+    .center-col {
+        width: 95%;
+    }
+    .container-w98 {
+        top: 25px;
+    }
+    .show-on-mobile {
+        display: inline !important;
+    }
+    .fas.fa-chevron-right {
+        color: #505051;
+        font-size: large;
+        float: right;
+    }
+    .table td:not(.select-list), .table th:not(.select-list), .table th:not(.no-scroll) {
+        width: auto;
+    }
+    .no-scroll {
+        width: 59px !important;
+    }
+    .table-sm td, .table-sm th {
+        padding: 10px;
+    }
+    #contract-details-name-responsive {
+        display: block !important;
+    }
+    .row-w80 {
+        margin-bottom: 10px;
+        width: 95%;
+    }
+    .company-name-bold {
+        font-weight: bold;
+    }
+    .respond-50 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        padding-right: initial;
+    }
+    #back-results {
+        margin-bottom: 25px;
+    }
+    .navbar-logo-position {
+        float: left;
+    }
+    .mobile-w75 {
+        flex: 0 0 75%;
+        max-width: 100%;
+    }
+    .mobile-w25 {
+        flex: 0 0 25%;
+        max-width: 100%;
+    }
+    #customer-search-container {
+        margin-bottom: 15%;
+    }
+    .fieldset-legend {
+        font-size: 20px;
+    }
+    .form-group {
+        border: none;
+    }
+    .no-padding-mobile {
+        padding: 0;
+    }
+    .select-lg {
+        height: 40px !important;
+        border-top-left-radius: .2rem !important;
+        border-bottom-left-radius: .2rem !important;
+    }
+    .input-group-text {
+        height: 40px;
+    }
+    .card-mb-mobile {
+        margin-bottom: 20px;
+    }
+    .table td:not(.select-list), .table th:not(.select-list), .table th:not(.no-scroll) {
+        width: auto;
+        vertical-align: middle;
+    }
+    .user-name {
+        width: 147px !important;
+    }
+    .user-username {
+        width: 147px !important;
+    }
+    .user-role {
+        width: 102px !important;
+    }
+    .user-email {
+        width: 195px !important;
+    }
+    .user-login {
+        width: 147px !important;
+    }
+    #customer-search-results {
+        /* margin-bottom: 75px; */
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    html, body {
+        width: 200%;
+    }
+}

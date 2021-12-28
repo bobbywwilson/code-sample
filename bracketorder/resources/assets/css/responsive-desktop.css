@@ -1,0 +1,167 @@
+@media only screen and (max-width: 2014px) and (min-width: 1440px) {
+
+    #profile-table {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profile-heading {
+        padding-left: 5px;
+    }
+
+    .indicators {
+        position: absolute;
+        top: 145px;
+        right: 35.5%;
+        font-size: 15px !important;
+        font-weight: bolder;
+        color: #9e9e9e;
+    }
+
+    .colors {
+        position: absolute;
+        bottom: 22px;
+        left: 90%;
+        font-size: 15px !important;
+        font-weight: bolder;
+        color: #9e9e9e;
+    }
+
+    .modal {
+        max-height: none !important;
+        height: 45%;
+    }
+
+    .chart-adjustments {
+        height: 1016px;
+    }
+}
+
+
+@media only screen and (max-width: 1352px) {
+    .row .col.m6 {
+        width: 100%;
+    }
+    .hide-on-med-and-down {
+        display: none !important;
+    }
+    .show-on-med-and-down {
+        display: inline !important;
+    }
+    .chart-adjustments {
+        height: 1016px;
+    }
+}
+
+@media only screen and (max-width: 1204px) {
+    .show-on-large {
+        display: none !important;
+    }
+
+    .modal {
+        max-height: none !important;
+        height: 60%;
+        left: 70px;
+    }
+
+    .modal > .select-wrapper input.select-dropdown {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #9e9e9e;
+        width: 100%;
+        /*left: 10px;*/
+    }
+
+    #min-date {
+        position: relative;
+        left: 84.5%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    #max-date {
+        position: relative;
+        left: 95.8%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .chart-adjustments {
+        height: 1016px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sidenav {
+        width: 50%;
+        background-color: #ffffff;
+        bottom: 0;
+        padding-top: 45px !important;
+    }
+
+    #go-button {
+        top: 10px;
+    }
+
+    #clear-button {
+        top: 10px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sidenav {
+        width: 50%;
+        background-color: #ffffff;
+        bottom: 0;
+        padding-top: 45px;
+    }
+
+    #menu-open-desktop {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #login-heading {
+        margin-left: 5px;
+    }
+
+    .modal {
+        max-height: none !important;
+        height: 43%;
+        left: 70px;
+        right: auto;
+    }
+
+    #min-date {
+        position: relative;
+        left: 79%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    #max-date {
+        position: relative;
+        left: 94%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .sidenav {
+        width: 50%;
+        background-color: #ffffff;
+        bottom: 0;
+        padding-top: 45px !important;
+    }
+}
